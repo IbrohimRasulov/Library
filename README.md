@@ -50,9 +50,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Ibrohim Rasulov**
 
-- GitHub: [@IbrohimRasulov](https://github.com/IbrohimRasulov)
-- Twitter: [@IbrohimRasu1ov](https://twitter.com/IbrohimRasu1ov)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ibrohim-rasulov-a88352209/)
+- [GitHub](https://github.com/IbrohimRasulov)
+- [Twitter](https://twitter.com/IbrohimRasu1ov)
+- [LinkedIn](https://www.linkedin.com/in/ibrohim-rasulov-a88352209/)
 
 ## 🤝 Contributing
 
