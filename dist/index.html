@@ -1,1 +1,50 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Wbpack Exercise</title><script defer="defer" src="main.js"></script></head><body><h1>Hello webpack!</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script defer src="/main.js"></script></head>
+<body>
+    <main class="row m-5 px-5 justify-content-around">
+        <h1>Library of books</h1>
+        <div id="book-container" class="w-50  col-xs-6 mt-5">
+            <h3 class="pb-2">Booklist</h3>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p class="font-monospace d-inline">"Some Book" by someone</p>
+                    <button class="btn btn-danger btn-sm float-end">Delete</button>
+                </li>
+                <li class="list-group-item gray-background">
+                    <p class="font-monospace d-inline">"Some Book" by someone</p>
+                    <button class="btn btn-danger btn-sm float-end">Delete</button>
+                </li>
+                <li class="list-group-item">
+                    <p class="font-monospace d-inline">"Some Book" by someone</p>
+                    <button class="btn btn-danger btn-sm float-end">Delete</button>
+                </li>
+                <li class="list-group-item gray-background">
+                    <p class="font-monospace d-inline">"Some Book" by someone</p>
+                    <button class="btn btn-danger btn-sm float-end">Delete</button>
+                </li>
+                <li class="list-group-item">
+                    <p class="font-monospace d-inline">"Some Book" by someone</p>
+                    <button class="btn btn-danger btn-sm float-end">Delete</button>
+                </li>
+            </ul>
+        </div>
+
+        <div id="form-container" class="w-25 col-xs-6 mt-5">
+            <h3 class="pb-2">Add book</h3>
+
+            <form>
+                <input type="text" placeholder="Title" class="form-control mb-3" required>
+                <input type="text" placeholder="Author" class="form-control mb-4" required>
+                <button class="btn btn-primary float-end w-100">Add</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
