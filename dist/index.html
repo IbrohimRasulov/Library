@@ -12,37 +12,16 @@
         <div id="book-container" class="w-50  col-xs-6 mt-5">
             <h3 class="pb-2">Booklist</h3>
 
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <p class="font-monospace d-inline">"Some Book" by someone</p>
-                    <button class="btn btn-danger btn-sm float-end">Delete</button>
-                </li>
-                <li class="list-group-item gray-background">
-                    <p class="font-monospace d-inline">"Some Book" by someone</p>
-                    <button class="btn btn-danger btn-sm float-end">Delete</button>
-                </li>
-                <li class="list-group-item">
-                    <p class="font-monospace d-inline">"Some Book" by someone</p>
-                    <button class="btn btn-danger btn-sm float-end">Delete</button>
-                </li>
-                <li class="list-group-item gray-background">
-                    <p class="font-monospace d-inline">"Some Book" by someone</p>
-                    <button class="btn btn-danger btn-sm float-end">Delete</button>
-                </li>
-                <li class="list-group-item">
-                    <p class="font-monospace d-inline">"Some Book" by someone</p>
-                    <button class="btn btn-danger btn-sm float-end">Delete</button>
-                </li>
-            </ul>
+            <ul class="list-group"></ul>
         </div>
 
         <div id="form-container" class="w-25 col-xs-6 mt-5">
             <h3 class="pb-2">Add book</h3>
 
             <form>
-                <input type="text" placeholder="Title" class="form-control mb-3" required>
-                <input type="text" placeholder="Author" class="form-control mb-4" required>
-                <button class="btn btn-primary float-end w-100">Add</button>
+                <input type="text" placeholder="Title" class="form-control mb-3" id="book-title" required>
+                <input type="text" placeholder="Author" class="form-control mb-4" id="book-author" required>
+                <button class="btn btn-primary w-100">Add</button>
             </form>
         </div>
     </main>

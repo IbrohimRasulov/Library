@@ -4,17 +4,21 @@ const form = document.querySelector('form');
 const book_list = document.querySelector('.list-group');
 const title = document.querySelector('#book-title');
 const author = document.querySelector('#book-author');
-const add_btn = document.querySelector('.btn-primary');
 
+// const books = JSON.parse(localStorage.getItem('books')) || [];
 const books = [];
 
-// const add_book = (title, author) => {
-//   books.push({
-//     title,
-//     author
-//   });
-//   return { title, author }
-// }
+
+const addToLocalStorage = (title, author) => {
+  books.push({
+    title,
+    author
+  });
+
+  localStorage.setItem('books', JSON.stringify(books));
+
+  return { title, author }; 
+}
 
 const show_book = () => {
   const li = document.createElement('li');
@@ -35,7 +39,12 @@ const show_book = () => {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  show_book();
+  const new_book = addToLocalStorage(
+    title.value,
+    author.value
+  );
+
+  show_book(new_book);
 
   title.value = '';
   author.value = '';
